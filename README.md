@@ -1,113 +1,104 @@
 # Smart Storage Manager
 
-### Native Android Storage Analyzer & File Management Application
+### Native Android Storage Analysis & File Management
 
 **Platform:** Android  
-**Languages:** Java and Kotlin  
-**Project Type:** Native Android Application  
-**Developer Portfolio:** MBDTECH LTD  
+**Verified Language:** Kotlin  
+**Framework:** Native Android SDK  
+**Developer:** MBDTECH LTD  
 **Status:** Published on Google Play
 
-## Live Application
+## Live Android App
 
-[View Smart Storage Manager on Google Play](https://play.google.com/store/apps/details?id=com.appzee.smartstorage)
+[Smart Storage Manager on Google Play](https://play.google.com/store/apps/details?id=com.appzee.smartstorage)
 
-## Overview
+## Project Overview
 
 Smart Storage Manager is a native Android application
-designed to help users understand, explore and manage
-their device storage through a simple mobile interface.
+designed to help users analyze device storage, discover
+large files, browse file categories and organize content.
 
-The app combines storage analysis, file discovery,
-cleaning utilities and recovery-related tools.
+Its interface combines storage insights, file listings,
+file details and file-management tools.
 
-## Key Features
+## Features Observed in Reviewed Kotlin Code
 
-### Storage Analyzer
-- Storage usage overview
-- Identify files consuming device space
-- Storage information presented in an accessible UI
+### Storage Analysis
+- Storage analysis screen
+- Scan progress interface
+- Storage report screen
+- Cached scan results
 
-### Large Files Finder
-- Discover large files
-- Locate videos, downloads and other space-consuming files
-- Review storage-heavy content
+### File Discovery
+- Large file identification
+- Recent files listing
+- Category-based file browsing
+- Empty folder discovery
 
-### Storage Cleaner
-- Find unnecessary files
-- Review items before managing device storage
-- Simplified cleaning workflow
+### File Management
+- File details interface
+- File and folder list adapters
+- File selection controls
+- File deletion workflow
+- File information display
 
-### Empty Folder Finder
-- Detect empty or unused directories
-- Support better file organization
+### User Interface
+- Native Android Activities
+- RecyclerView-based file lists
+- Android View Binding
+- Material Design UI components
+- Navigation between storage tools
 
-### Recent Files
-- Quickly access recently used files
-- Simplified document and file browsing
+## Technical Skills Demonstrated
 
-### File Recovery
-- Scan for potentially recoverable files
-- Recovery availability depends on device conditions
+- Kotlin Android development
+- Android Activity architecture
+- RecyclerView adapters
+- View Binding
+- Kotlin Coroutines
+- Android file-management interfaces
+- Storage reporting UI
 
-### User Experience
-- Native Android interface
-- Storage-focused dashboard
-- Straightforward navigation
-- Organized file management tools
+## Source Review Scope
 
-## Technology Stack
+The supplied portfolio archive contained 12 Kotlin
+source files and no Java or XML source files.
 
-- Java
-- Kotlin
-- Android SDK
-- Android XML Layouts
-- Native Android UI Components
-- Gradle-based Android Project Structure
+Java may exist in the original project, but this
+archive does not verify its presence.
 
-Specific libraries and processing implementations
-are not disclosed in this public portfolio.
+Storage scanning and file-management interactions
+were observed in the reviewed Kotlin source.
 
-## Public Code Samples
+File recovery functionality and the complete
+storage engine were not independently verified.
 
-The `ui-code-samples/` folder contains a small,
-curated selection of Android UI source files,
-including eligible XML layouts and Java/Kotlin
-presentation-layer components.
+## Public Code Examples
 
-These samples demonstrate:
-- Native Android development
-- UI layout organization
-- Android screen architecture
-- Java and Kotlin code structure
-- Reusable interface components
+The `ui-code-samples` directory contains small,
+independently written Kotlin UI-state examples.
 
-This repository is a portfolio showcase,
-not a complete or buildable production application.
+They demonstrate presentation concepts without
+publishing the original production implementation.
 
-## Protected Source Code
+These examples are illustrative and are not a
+complete or independently buildable application.
 
-The following implementation remains private:
+## Private Implementation
 
+The public portfolio excludes:
+
+- Original production Activities and adapters
+- Storage scanning algorithms
+- File deletion implementation
+- Permission-management logic
+- Advertising integration
+- Private configuration and credentials
 - Complete application source code
-- Storage scanning and cleaning algorithms
-- File recovery implementation
-- Android permission management logic
-- Monetization and advertising integrations
-- Private configurations and credentials
-- Proprietary processing components
-
-## Feature Verification
-
-The feature descriptions are based on the
-public Google Play listing.
-
-The internal implementation has not been
-independently verified through this portfolio.
 
 ## Developer
 
 **MBDTECH LTD**
 
-Native Android | Java | Kotlin | Flutter |
-iOS Development | Web Development | AI Solutions
+Native Android Development | Kotlin | Java |
+Flutter | iOS | Web Development | AI Integration
